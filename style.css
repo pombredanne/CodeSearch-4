@@ -1,0 +1,380 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #76E4E1;
+}
+.searchbox {
+    background-color: white;
+    background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+
+    background: -webkit-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+    background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+    background: -o-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+    background: -ms-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+    background: linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+    margin: auto;
+    position: relative;
+    max-width: 550px;
+    height: 450px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #09C;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #999;
+    border: inset 1px solid #333;
+
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    padding-top: 50px;
+    overflow: auto;
+}
+
+input:not([type=submit]):not([type=file]) {
+    border: 5px solid white;
+    -webkit-box-shadow: inset 0 0 8px rgba(0,0,0,0.1), 0 0 16px rgba(0,0,0,0.1);
+    box-shadow: inset 0 0 8px rgba(0,0,0,0.1), 0 0 16px rgba(0,0,0,0.1);
+    height: 80px;
+    width: 80%;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.submitter {
+    background-image: url("images/search.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 20%;
+    margin-left: -5px;
+    float: right;
+
+}
+
+
+
+
+
+
+
+
+
+/*LOGO AND SUBMITTER*/
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: none;
+    background-color: rgba(0,0,0,0.05);
+    
+}
+a:active {
+    text-decoration: none;
+    color: orange;
+}
+
+.logo{
+    margin-top: 30px;
+    font-family: 'VT323', cursive;
+    color: white; 
+    font-size:85px;
+    text-align: center;
+    text-shadow: 0 0 2px #000000;
+}
+
+.logoSmall {
+    font-family: 'VT323', cursive;
+    line-height:60%;
+    color: white; 
+    font-size:60px;
+    text-align: center;
+    text-shadow: 0 0 2px #000000;
+    margin-bottom: 20px;
+}
+
+.description {
+    width: 240px;
+    float: left;
+}
+
+.description p, .greeting {
+    text-decoration: none;
+    font-family: Helvetica; 
+    font-weight: 100;
+    font-size: 15px;
+    color: black;
+    text-align: justify;
+    text-indent: 10px;
+}
+.greeting {
+    font-size: 30px;
+    font-family: Arial;
+    text-align: left;
+}
+
+
+
+
+
+
+/* SKIPPER*/
+
+
+.skipper {
+    width:240px;
+    height: 240px;
+    background-color: white;
+    float: right;
+    -webkit-box-shadow: 0px 0px 13px rgba(128, 192, 181, 1);
+    -moz-box-shadow:    0px 0px 13px rgba(128, 192, 181, 1);
+    box-shadow:         0px 0px 13px rgba(128, 192, 181, 1);
+    
+
+    -moz-border-radius-topleft: 10px;
+    -webkit-border-top-left-radius: 10px;
+     border-top-left-radius: 10px;
+    -moz-border-radius-topright: 58px;
+    -webkit-border-top-right-radius: 58px;
+    border-top-right-radius: 58px;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+.skipper .choices{
+    float: left;
+    width: 35%;
+    height: 60%;
+    background-color: grey;
+    padding-top: 5px;
+    -webkit-box-shadow: 2px -2px 1px rgba(50, 50, 50, 0.4);
+    -moz-box-shadow:    2px -2px 1px rgba(50, 50, 50, 0.4);
+    box-shadow:         2px -2px 1px rgba(50, 50, 50, 0.4);
+
+}
+
+.skipper .languages{
+    float: right;
+    width: 60%;
+    margin-right: 2%;
+    height: 60%;
+}
+
+.c1, .c2, .c3, .c4 {
+     height: 25%;
+     padding-top: 5px;
+     font-size: 13px;
+     color: white;
+}
+
+.lang1, .lang2, .lang3, .lang4{
+    display:none;
+    float: right;
+    height: 100%;
+    width:100%;
+    -webkit-box-shadow: -4px 3px 5px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    -4px 3px 5px rgba(50, 50, 50, 0.75);
+    box-shadow:         -4px 3px 5px rgba(50, 50, 50, 0.75);
+    border-radius: 5%;
+}
+
+.lang1 {
+    background-color: #FF9933;
+}
+
+.lang2 {
+    background-color: #CCCCCC;
+}
+
+.lang3 {
+    background-color: #CE0000;
+}
+
+.lang4 {
+    background-color: #9CCF31;}
+
+.c1 {
+border-bottom: 1px solid #FF9933;
+border-top: 1px solid #FF9933;
+}
+
+.c2 {
+border-bottom: 1px solid #CCCCCC;
+border-top: 1px solid #CCCCCC;
+    } 
+.c3 {
+border-bottom: 1px solid #CE0000;
+border-top: 1px solid #CE0000;
+}
+.c4 {
+border-bottom: 1px solid #9CCF31;
+border-top: 1px solid #9CCF31;
+    }
+
+h2{
+    text-align: center;
+}
+
+.skipper ul a:hover{
+    opacity: 0.2;
+}
+
+.skipper ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.skipper ul li ul{
+    border: 1px dashed white;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+
+.skipper ul ul {
+    display: none;
+}
+
+.skipper ul li:hover > ul {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*language pages*/
+
+
+.languagePages form {
+    margin-bottom: 0;
+}
+
+.htmlcss {
+    font-family: 'VT323', cursive;
+    line-height:60%;
+    font-size:40px;
+    text-align: center;
+    text-shadow: 0 0 2px #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.htmlcss{
+    margin-top: -20px;
+}
+
+#tabs ul li{
+    margin: 0 auto;
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+}
+
+#tabs1, #tabs2, #tabs3 {
+    background-color: black;
+    height: 170px;
+    margin-bottom: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+
+@media screen and (min-width:520px) {
+    .logoSmall{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:519px){
+    .searchbox {
+        height: 100%;
+    }
+
+    body{
+        background-color: #FCFF6A;
+    }
+
+    .logo {
+        display:none;
+        }
+
+    .logoSmall{
+        display: block;
+    }
+
+    .skipper {
+        position: static;
+        display: inline;
+    }
+
+    .description{
+        width: auto;
+    }
+
+}
