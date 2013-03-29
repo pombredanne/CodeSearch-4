@@ -20,9 +20,6 @@
 
 	<div class="searchbox">
 	<div class="logoSmall">CODED IN WHAT?</div>
-	<form>	
-		<input type="textbox" name="q" value ="Search software/website here" onclick="if(this.value=='Search software/website here')this.value='';" />
-		<input class="submitter" type="submit" value="">
 		<div class="skipper">
 			<h2>Alternative to searching:</h2>
 			<div class="choices">
@@ -137,7 +134,12 @@
 			<p>Then I'll present you with some of the best resources to learn those languages, allowing you to one day create the next big thing.</p>
 			<div class="greeting">Happy coding everyone!</div>
 		</div>
+
+	<form>	
+		<input type="textbox" name="q" value ="Search software/website here" onclick="if(this.value=='Search software/website here')this.value='';" />
+		<input class="submitter" type="submit" value="">
 	</form>
+	
 	</div>
 </body>
 </html>
