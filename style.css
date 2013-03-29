@@ -222,6 +222,10 @@ hr {
     background-color: #EBEBEB;
 }
 
+.even hr, .odd hr {
+    margin-top: -8px;
+}
+
 .accordion, .accordion2, .accordion3 {
   width: 100%;
   margin: 1em .5em;
@@ -233,7 +237,15 @@ hr {
   font-weight: default;
   margin: 0;
   padding: .25em;
+  padding-left: 20px;
 }
+
+.accordion h3:hover, .accordion2 h3:hover, .accordion3 h3:hover {
+    -webkit-box-shadow: -3px 0px 0px rgba(50, 50, 50, 1);
+    -moz-box-shadow:    -3px 0px 0px rgba(50, 50, 50, 1);
+    box-shadow:         -3px 0px 0px rgba(50, 50, 50, 1);
+}
+
 .accordion div, .accordion2 div, .accordion3 div{
   padding: .5em .25em;
 }
