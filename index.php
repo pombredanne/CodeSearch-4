@@ -16,7 +16,7 @@
 
 </head>
 <body>
-		<div class="logo"><a href="index.html">CODED IN WHAT?</a></div>
+		<div class="logo"><a href="index.php">CODED IN WHAT?</a></div>
 
 	<div class="searchbox">
 	<div class="logoSmall">CODED IN WHAT?</div>
