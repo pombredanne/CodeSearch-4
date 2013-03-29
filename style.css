@@ -94,7 +94,11 @@ hr {
     color: #1A7D7B;
 }
 
-
+.logoDesc p{
+    margin-right: 500px;
+    font-size: 10px;
+    color: black;
+}
 
 
 
@@ -267,36 +271,11 @@ hr {
 
 
 @media screen and (min-width:520px) {
-    .logoSmall{
-        display: none;
-    }
+
 }
 
 
 @media screen and (max-width:519px){
-    .searchbox {
-        height: 100%;
-    }
 
-    body{
-        background-color: #FCFF6A;
-    }
-
-    .logo {
-        display:none;
-        }
-
-    .logoSmall{
-        display: block;
-    }
-
-    .skipper {
-        position: static;
-        display: inline;
-    }
-
-    .description{
-        width: auto;
-    }
 
 }

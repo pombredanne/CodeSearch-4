@@ -8,7 +8,7 @@
 <meta name="description" content="" />
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title>Coded In What</title>
-<link href="styletester.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
 <script type='text/javascript' src='js/jquery.js'></script>
 <script type='text/javascript' src='js/jquery-ui.js'></script>
 <script type='text/javascript' src='js/script.js'></script>
@@ -19,7 +19,6 @@
 <body>
 	<div class="logocontainer">
 		<div class="logo"><a href="index.php">CODED IN WHAT?</a></div>
-		<div class="logoSmall">CODED IN WHAT?</div>
 	</div>
 		<div class="logoDesc">Find out what languages your favorite software, game, or website are coded in</div><hr>
 
