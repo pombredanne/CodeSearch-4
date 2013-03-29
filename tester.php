@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Coded In What</title>
+<link href="styletester.css" rel="stylesheet" type="text/css" media="screen" />
+<script type='text/javascript' src='js/jquery.js'></script>
+<script type='text/javascript' src='js/jquery-ui.js'></script>
+<script type='text/javascript' src='js/script.js'></script>
+<link href='http://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+		<div class="logo"><a href="index.php">CODED IN WHAT?</a></div>
+
+	<div class="searchbox">
+	<div class="logoSmall">CODED IN WHAT?</div>
+		<div class="skipper">
+			<h2>Alternative to searching:</h2>
+			<div class="choices">
+					<div class="c1">Languages</div>
+					<div class="c2">Sites</div>
+					<div class="c3">Games</div>
+					<div class="c4">Softwares</div>
+			</div>
+			<div class="languages">
+					<div class="lang1">
+						<ul>
+							<li>Web Dev
+								<ul>
+									<li><a href="htmlcss.php">HTML & CSS</a></li>
+									<li><a href="javascript.php">Javascript</a></li>
+									<li><a href="php.php">PHP</a></li>
+									<li><a href="ruby.php">Ruby</a></li>
+								</ul>
+							</li>
+							<li>Programming
+								<ul>
+									<li><a href="python.php">Python</a></li>
+									<li><a href="java.php">Java</a></li>
+									<li><a href="cplusplus.php">C++</a></li>
+									<li><a href="c.php">C</a></li>
+								</ul>
+							</li>
+						</ul>
+
+					</div>
+					<div class="lang2"></div>
+					<div class="lang3"></div>
+					<div class="lang4"></div>
+			</div>
+		</div>
+		<div class="description">
+			<p>Just a simple site to check what the most popular websites and softwares are coded in.</p>
+			<p>Then I'll present you with some of the best resources to learn those languages, allowing you to one day create the next big thing.</p>
+			<div class="greeting">Happy coding everyone!</div>
+		</div>
+
+	<form>	
+		<input type="textbox" name="q" value ="Search software/website here" onclick="if(this.value=='Search software/website here')this.value='';" />
+		<input class="submitter" type="submit" value="">
+	</form>
+	
+	</div>
+</body>
+</html>
