@@ -192,11 +192,11 @@ hr {
     font-family: helvetica;
     width:75%;
     margin: 0 auto;
-    margin-top: 20px;
 }
 
 .colcontainer hr {
-    margin-top: 1px;
+    margin-top: -10px;
+    margin-left: 8px;
     width: 100%;
 }
 
@@ -222,31 +222,34 @@ hr {
     background-color: #EBEBEB;
 }
 
-.even hr, .odd hr {
-    margin-top: -8px;
-}
 
-.accordion, .accordion2, .accordion3 {
+.accordion {
   width: 100%;
   margin: 1em .5em;
+  margin-bottom: 70px;
 }
 
-.accordion h3, .accordion2 h3, .accordion3 h3 {
+.accordion img {
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+
+
+.accordion h3{
   font-family: helvetica;
   font-size: 15px; 
-  font-weight: default;
   margin: 0;
   padding: .25em;
-  padding-left: 20px;
 }
 
-.accordion h3:hover, .accordion2 h3:hover, .accordion3 h3:hover {
-    -webkit-box-shadow: -3px 0px 0px rgba(50, 50, 50, 1);
-    -moz-box-shadow:    -3px 0px 0px rgba(50, 50, 50, 1);
-    box-shadow:         -3px 0px 0px rgba(50, 50, 50, 1);
+.accordion h3:hover{
+
+        padding-bottom: 10px;
+    padding-top: 10px;
 }
 
-.accordion div, .accordion2 div, .accordion3 div{
+.accordion div{
   padding: .5em .25em;
 }
 

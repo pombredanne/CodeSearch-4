@@ -27,54 +27,78 @@
 		<div class="col1">
 			<h1>Sites</h1><hr>
 			<div class="accordion">
-				<h3 class="odd">YouTube.com</h3>
+				<h3 class="odd"><img src="images/youtube.png">YouTube</h3>
 				<div class="odd"><hr>Frontend: Flash, JavaScript <br>Backend: C, Python, Java<br>Database: MySQL</div>
-				<h3 class="even">Facebook.com</h3>
+				<h3 class="even"><img src="images/facebook.png">Facebook</h3>
 				<div class="even"><hr>Frontend: JavaScript, Ajax <br>Backend: PHP, C++, Java, Python, Erlang <br>Database: MySQL</div>
-				<h3 class="odd">Yahoo.com</h3>
+				<h3 class="odd"><img src="images/yahoo.png">Yahoo</h3>
 				<div class="odd"><hr>Frontend: JavaScript, Ajax <br>Backend: PHP <br>Database: MySQL </div>
-				<h3 class="even">Google.com</h3>
+				<h3 class="even"><img src="images/google.png">Google</h3>
 				<div class="even"><hr>Frontend: JavaScript, Ajax <br>Backend: C, C++, Java, Python, PHP <br>Database: BigTable</div>
-				<h3 class="odd">Live.com</h3>
-				<div class="odd"><hr>Frontend: JavaScript, Ajax<br>Backend: ASP.NET <br>Database: Microsoft SQL Server	</div>
-				<h3 class="even">Wikipedia.org</h3>
-				<div class="even"><hr>Backend: PHP <br>Database: MySQL</div>
-				<h3 class="odd">Twitter.com</h3>
+				<h3 class="odd"><img src="images/twitter.png">Twitter</h3>
 				<div class="odd"><hr>Backend: C++, Java, RoR, Scala</div>
-				<h3 class="even">Amazon.com</h3>
-				<div class="even"><hr>Backend: Java, J2EE, C++, Perl</div>
-				<h3 class="odd">Reddit.com</h3>
+				<h3 class="even"><img src="images/linkedin.png">LinkedIn</h3>
+				<div class="even"><hr>C++</div>
+				<h3 class="odd"><img src="images/reddit.png">Reddit</h3>
 				<div class="odd"><hr>Python</div>
 			</div>
+
 		</div>
 		<div class="col2">
-			<h1>Games</h1><hr>
-			<div class="accordion2">
-				<h3 class="even">Call of Duty</h3>
-				<div class="even"><hr>C++</div>
-				<h3 class="odd">Halo</h3>
+			<h1>Browsers</h1><hr>
+			<div class="accordion">
+				<h3 class="odd"><img src="images/windows.png">Microsoft Windows</h3>
 				<div class="odd"><hr>C++</div>
-				<h3 class="even">Rollercoaster Tycoon</h3>
-				<div class="even"><hr>Assembly</div>
-				<h3 class="odd">IOS</h3>
-				<div class="odd"><hr>Objective-C</div>
-				<h3 class="even">Android</h3>
-				<div class="even"><hr>Java</div>
+				<h3 class="even"><img src="images/linux.png">Linux</h3>
+				<div class="even"><hr>C</div>
+				<h3 class="odd"><img src="images/mac.png">Apple Mac OS</h3>
+				<div class="odd"><hr>C, C++</div>
 			</div>
-		</div>
-		<div class="col3">
-			<h1>Software</h1><hr>
-			<div class="accordion3">
-				<h3 class="odd">Adobe Photoshop</h3>
+
+			<h1>Graphical Editors</h1><hr>
+			<div class="accordion">
+				<h3 class="odd"><img src="images/photoshop.png">Adobe Photoshop</h3>
 				<div class="odd"><hr>C++</div>
-				<h3 class="even">Google Chrome</h3>
-				<div class="even"><hr>C++</div>
-				<h3 class="odd">Mozilla Firefox</h3>
-				<div class="odd"><hr>C++</div>
-				<h3 class="even">GIMP</h3>
+				<h3 class="even"><img src="images/gimp.png">GIMP</h3>
 				<div class="even"><hr>C</div>
 			</div>
+
+			<h1>Development Environments</h1><hr>
+			<div class="accordion">
+				<h3 class="even"><img src="images/visualstudio.png">Microsoft Visual Studio</h3>
+				<div class="even"><hr>C, C#</div>
+				<h3 class="odd"><img src="images/eclipse.png">Eclipse</h3>
+				<div class="odd"><hr>Java</div>
+			</div>
+
 		</div>
+		
+		<div class="col3">
+			<h1>Operating Systems</h1><hr>
+			<div class="accordion">
+				<h3 class="odd"><img src="images/ie.png">Internet Explorer</h3>
+				<div class="odd"><hr>C++</div>
+				<h3 class="even"><img src="images/firefox.png">Mozilla Firefox</h3>
+				<div class="even"><hr>C++</div>
+				<h3 class="odd"><img src="images/chrome.png">Google Chrome</h3>
+				<div class="odd"><hr>C++</div>
+				<h3 class="even"><img src="images/safari.png">Safari</h3>
+				<div class="even"><hr>C++</div>
+			</div>
+
+			<h1>Games</h1><hr>
+			<div class="accordion">
+				<h3 class="even"><img src="images/cod.png">Call of Duty</h3>
+				<div class="even"><hr>C++</div>
+				<h3 class="odd"><img src="images/halo.png">Halo</h3>
+				<div class="odd"><hr>C++</div>
+				<h3 class="even"><img src="images/roller.png">Rollercoaster Tycoon</h3>
+				<div class="even"><hr>Assembly</div>
+			</div>
+
+		</div>
+
+
 	</div>
 </body>
 </html>
