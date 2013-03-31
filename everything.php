@@ -22,7 +22,7 @@
 	</div>
 		<div class="logoDesc">Find out what languages your favorite software, game, or website are coded in
 		<p>Credit to <a href="http://www.lextrait.com/vincent/implementations.html">this study</a> for most of the data</p></div><hr>
-	
+
 	<div class="colcontainer">
 		<div class="col1">
 			<h1>Sites</h1><hr>
